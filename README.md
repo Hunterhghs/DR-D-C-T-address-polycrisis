@@ -2,10 +2,11 @@
 
 A one-page digital report by **Hunter Hughes**, published by **H Heuristics**, on how diffusion of innovations, economic convergence, and the clean transition unwind the coupled global polycrisis of pollution, warming, and poverty.
 
-- **Live:** https://hunterhghs.github.io/DR-D-C-T-address-polycrisis/
+- **Live:** https://pdp.hheuristics.com/
 - **Repository:** https://github.com/Hunterhghs/DR-D-C-T-address-polycrisis
 - **Format:** Single self-contained `index.html` (inline CSS + JS, Chart.js via CDN)
 - **Engine:** Built with the Veles pipeline (Fable-5 × DeepSeek hybrid)
+- **Custom domain:** `CNAME` → `pdp.hheuristics.com`
 
 ## Contents
 
@@ -23,11 +24,14 @@ The page embeds five Chart.js figures (coupled polycrisis dashboard, clean-tech 
 
 ## Deploy via GitHub Pages
 
+The `CNAME` file maps this repository to `pdp.hheuristics.com`. Ensure the DNS record for `pdp` points to GitHub Pages (a `CNAME` to `Hunterhghs.github.io`).
+
 1. Push this repository to GitHub (default branch `main`).
 2. On GitHub: **Settings → Pages**.
 3. Set **Source** to **Deploy from a branch**, select branch `main`, folder `/ (root)`.
-4. Save. The site is served at:
-   `https://hunterhghs.github.io/DR-D-C-T-address-polycrisis/`
+4. Save. GitHub will detect the `CNAME` file and serve the site at:
+   `https://pdp.hheuristics.com/`
+5. Optionally enable **Enforce HTTPS** under Settings → Pages.
 
 ## Local preview
 
