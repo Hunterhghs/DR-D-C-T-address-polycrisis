@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+<title>The Polycrisis Is a Diffusion Problem — A Digital Report | H Heuristics</title>
+
+<!-- Core metadata -->
+<meta name="description" content="A digital report by Hunter Hughes and H Heuristics on how diffusion of innovations, economic convergence, and the clean transition unwind the coupled global polycrisis of pollution, warming, and poverty.">
+<meta name="author" content="Hunter Hughes">
+<meta name="publisher" content="H Heuristics">
+<meta name="organization" content="H Heuristics">
+<meta name="keywords" content="polycrisis, diffusion of innovations, economic convergence, clean transition, clean energy, climate, poverty, pollution, H Heuristics, Hunter Hughes">
+<meta name="robots" content="index, follow">
+<meta name="generator" content="Veles — Fable-5 × DeepSeek hybrid pipeline (H Heuristics)">
+<meta name="copyright" content="© 2026 Hunter Hughes / H Heuristics. All rights reserved.">
+
+<!-- Dublin Core metadata -->
+<meta name="DC.title" content="The Polycrisis Is a Diffusion Problem — A Digital Report">
+<meta name="DC.creator" content="Hunter Hughes">
+<meta name="DC.publisher" content="H Heuristics">
+<meta name="DC.date" content="2026-08-23">
+<meta name="DC.language" content="en">
+<meta name="DC.type" content="Text.Report">
+<meta name="DC.format" content="text/html">
+
+<!-- Open Graph metadata -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="H Heuristics">
+<meta property="og:title" content="The Polycrisis Is a Diffusion Problem — A Digital Report">
+<meta property="og:description" content="Diffusion, convergence, and the clean transition are one system — the only system fast enough to outrun pollution, warming, and poverty.">
+<meta property="og:url" content="https://hunterhghs.github.io/DR-D-C-T-address-polycrisis/">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="Hunter Hughes">
+<meta property="article:publisher" content="https://hheuristics.com/">
+<meta property="article:published_time" content="2026-08-23">
+<meta property="article:section" content="Development Economics">
+<meta property="article:tag" content="Polycrisis">
+<meta property="article:tag" content="Diffusion of Innovations">
+<meta property="article:tag" content="Clean Transition">
+
+<!-- Twitter metadata -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Polycrisis Is a Diffusion Problem — A Digital Report">
+<meta name="twitter:description" content="Pollution, warming, and poverty are one coupled system. Diffusion, convergence, and the clean transition are the exit ramp. A digital report by Hunter Hughes, H Heuristics.">
+<meta name="twitter:site" content="@hheuristics">
+<meta name="twitter:creator" content="@HunterHghs">
+
+<!-- JSON-LD structured metadata -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The Polycrisis Is a Diffusion Problem",
+  "description": "A digital report on how diffusion of innovations, economic convergence, and the clean transition unwind the coupled global polycrisis of pollution, warming, and poverty.",
+  "url": "https://hunterhghs.github.io/DR-D-C-T-address-polycrisis/",
+  "datePublished": "2026-08-23",
+  "dateModified": "2026-08-23",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "wordCount": 2600,
+  "author": {
+    "@type": "Person",
+    "name": "Hunter Hughes",
+    "url": "https://hheuristics.com/",
+    "jobTitle": "Founder & Principal Analyst",
+    "affiliation": { "@type": "Organization", "name": "H Heuristics" }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "H Heuristics",
+    "url": "https://hheuristics.com/"
+  }
+}
+</script>
+
+<style>
+  :root {
+    --paper: #f2eee3;
+    --paper-2: #faf7ee;
+    --card: #fdfbf4;
+    --ink: #14213d;
+    --ink-soft: #23344f;
+    --muted: #5c6b7a;
+    --line: #d9d1bf;
+    --line-strong: #b9ad92;
+    --accent: #e8590c;
+    --accent-ink: #9c3d05;
+    --teal: #0e7c7b;
+    --teal-ink: #0a5a59;
+    --gold: #b8860b;
+    --shadow: 0 14px 34px rgba(20, 33, 61, 0.08);
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    --sans: ui-sans-serif, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --mono: ui-monospace, "SF Mono", "Menlo", "Consolas", monospace;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 92px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+
+  body {
+    margin: 0;
+    background:
+      repeating-linear-gradient(90deg, rgba(20,33,61,0.022) 0 1px, transparent 1px 120px),
+      var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16.5px;
+    line-height: 1.72;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: var(--accent-ink); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  a:hover { color: var(--accent); }
+  :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+  .skip-link {
+    position: absolute; left: -999px; top: 0; z-index: 200;
+    background: var(--ink); color: #fff; padding: 10px 16px; font-size: 14px;
+  }
+  .skip-link:focus { left: 12px; top: 12px; }
+
+  /* Progress bar */
+  .progress {
+    position: fixed; top: 0; left: 0; height: 3px; width: 0;
+    background: linear-gradient(90deg, var(--accent), var(--gold));
+    z-index: 120; transition: width 80ms linear;
+  }
+
+  /* Masthead */
+  .masthead {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(242, 238, 227, 0.92);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  .masthead-inner {
+    max-width: 1240px; margin: 0 auto; padding: 14px 24px;
+    display: flex; align-items: center; justify-content: space-between; gap: 18px;
+  }
+  .brand {
+    font-family: var(--mono); font-size: 13px; letter-spacing: 0.16em;
+    color: var(--ink); text-decoration: none; white-space: nowrap;
+    display: flex; flex-direction: column; line-height: 1.25;
+  }
+  .brand strong { font-weight: 700; }
+  .brand span { color: var(--muted); letter-spacing: 0.06em; font-size: 10.5px; text-transform: uppercase; }
+  .topnav { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
+  .topnav::-webkit-scrollbar { display: none; }
+  .topnav a {
+    font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--ink-soft); text-decoration: none;
+    padding: 8px 11px; border-radius: 3px; white-space: nowrap;
+  }
+  .topnav a:hover { background: rgba(20,33,61,0.06); color: var(--ink); }
+  .topnav a.active { background: var(--ink); color: var(--paper-2); }
+
+  /* Hero */
+  .hero {
+    border-bottom: 1px solid var(--line-strong);
+    padding: 84px 24px 64px;
+    background:
+      radial-gradient(1200px 480px at 85% -10%, rgba(232, 89, 12, 0.10), transparent 60%),
+      radial-gradient(900px 420px at 10% 0%, rgba(14, 124, 123, 0.10), transparent 55%);
+  }
+  .hero-inner { max-width: 1080px; margin: 0 auto; }
+  .kicker {
+    font-family: var(--mono); font-size: 12px; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--accent-ink); margin: 0 0 22px;
+  }
+  .kicker .rule { display: inline-block; width: 42px; height: 1px; background: var(--accent); vertical-align: middle; margin-right: 12px; }
+  h1 {
+    font-family: var(--serif); font-weight: 600; font-size: clamp(44px, 7vw, 84px);
+    line-height: 1.02; letter-spacing: -0.02em; margin: 0 0 26px; max-width: 14ch;
+  }
+  .dek {
+    font-family: var(--serif); font-size: clamp(19px, 2.4vw, 25px); line-height: 1.45;
+    color: var(--ink-soft); max-width: 62ch; margin: 0 0 28px;
+  }
+  .byline {
+    display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: center;
+    font-family: var(--mono); font-size: 12.5px; letter-spacing: 0.05em;
+    color: var(--muted); border-top: 1px solid var(--line-strong);
+    padding-top: 18px; margin-top: 8px;
+  }
+  .byline b { color: var(--ink); font-weight: 700; }
+  .byline .dot { color: var(--accent); }
+
+  /* Stat block */
+  .stats {
+    max-width: 1080px; margin: 0 auto; padding: 0 24px;
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    border-left: 1px solid var(--line); border-top: 1px solid var(--line);
+    transform: translateY(-34px);
+  }
+  .stat {
+    background: var(--card); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line);
+    padding: 22px 22px 20px;
+  }
+  .stat .n {
+    font-family: var(--mono); font-weight: 700; font-size: 26px; letter-spacing: -0.02em;
+    color: var(--ink); display: block; line-height: 1.1;
+  }
+  .stat .n em { color: var(--accent); font-style: normal; }
+  .stat .l { display: block; margin-top: 8px; font-size: 12.5px; color: var(--muted); line-height: 1.45; }
+  .stat .s { display: block; margin-top: 4px; font-family: var(--mono); font-size: 10px; letter-spacing: 0.06em; color: var(--teal-ink); text-transform: uppercase; }
+
+  /* Layout */
+  .layout {
+    max-width: 1240px; margin: -6px auto 0; padding: 0 24px;
+    display: grid; grid-template-columns: 236px minmax(0, 1fr); gap: 56px; align-items: start;
+  }
+  .toc { position: sticky; top: 96px; padding-top: 26px; }
+  .toc h2 {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase;
+    color: var(--muted); margin: 0 0 14px;
+  }
+  .toc ol { list-style: none; margin: 0; padding: 0; border-left: 1px solid var(--line-strong); }
+  .toc a {
+    display: block; padding: 7px 0 7px 16px; font-size: 13.5px; line-height: 1.35;
+    color: var(--muted); text-decoration: none; border-left: 2px solid transparent; margin-left: -1px;
+  }
+  .toc a:hover { color: var(--ink); }
+  .toc a.active { color: var(--ink); border-left-color: var(--accent); font-weight: 600; }
+
+  article { min-width: 0; padding: 26px 0 10px; }
+
+  section.report-section {
+    padding: 46px 0 54px; border-bottom: 1px solid var(--line);
+  }
+  section.report-section:first-of-type { padding-top: 10px; }
+
+  .sec-kicker {
+    font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase;
+    color: var(--accent-ink); margin: 0 0 12px;
+  }
+  .sec-kicker .no { color: var(--teal-ink); }
+  h2.sec-title {
+    font-family: var(--serif); font-weight: 600; font-size: clamp(27px, 3.4vw, 38px);
+    line-height: 1.12; letter-spacing: -0.015em; margin: 0 0 22px; max-width: 22ch;
+  }
+  h3 {
+    font-family: var(--sans); font-weight: 700; font-size: 16.5px; letter-spacing: 0.01em;
+    color: var(--ink); margin: 30px 0 10px;
+  }
+  .report-section p { margin: 0 0 20px; max-width: 70ch; }
+  .report-section p.lead { font-size: 19px; line-height: 1.6; color: var(--ink-soft); max-width: 68ch; }
+
+  .claim-box {
+    background: var(--ink); color: var(--paper-2); padding: 26px 28px; margin: 26px 0 8px;
+    border-left: 5px solid var(--accent); border-radius: 0 4px 4px 0;
+  }
+  .claim-box .tag {
+    font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase;
+    color: #f0a97f; display: block; margin-bottom: 10px;
+  }
+  .claim-box p { font-family: var(--serif); font-size: 21px; line-height: 1.5; margin: 0; max-width: 62ch; }
+
+  .takeaway {
+    background: linear-gradient(180deg, rgba(14,124,123,0.07), rgba(14,124,123,0.03));
+    border: 1px solid rgba(14,124,123,0.25); border-left: 5px solid var(--teal);
+    padding: 20px 24px; margin: 26px 0; border-radius: 0 4px 4px 0;
+  }
+  .takeaway .tag {
+    font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase;
+    color: var(--teal-ink); display: block; margin-bottom: 8px;
+  }
+  .takeaway p { margin: 0; color: var(--ink-soft); max-width: 66ch; }
+  .takeaway ul { margin: 10px 0 0; padding-left: 20px; color: var(--ink-soft); }
+  .takeaway li { margin-bottom: 8px; }
+
+  /* Figures */
+  figure.chart-card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 6px;
+    padding: 24px 24px 18px; margin: 30px 0; box-shadow: var(--shadow);
+  }
+  figcaption {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--accent-ink); margin-bottom: 6px;
+  }
+  .chart-title { font-family: var(--serif); font-size: 19px; font-weight: 600; color: var(--ink); margin: 0 0 4px; }
+  .chart-note { font-size: 13px; color: var(--muted); margin: 0 0 16px; }
+  .chart-wrap { position: relative; height: 340px; }
+  .chart-wrap.tall { height: 400px; }
+  .chart-fallback { display: none; font-size: 13.5px; color: var(--muted); padding: 30px 8px; text-align: center; }
+
+  /* Loop diagram */
+  .loop-grid {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; margin: 34px 0;
+    border: 1px solid var(--line-strong); background: var(--card); border-radius: 6px; overflow: hidden;
+  }
+  .loop-node { padding: 24px 20px 22px; position: relative; }
+  .loop-node + .loop-node { border-left: 1px dashed var(--line-strong); }
+  .loop-node .no {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em; color: var(--accent-ink);
+    display: block; margin-bottom: 10px;
+  }
+  .loop-node h3 { margin: 0 0 8px; font-size: 16px; }
+  .loop-node p { font-size: 13.5px; line-height: 1.55; color: var(--muted); margin: 0; }
+  .loop-arrow {
+    text-align: center; font-family: var(--mono); color: var(--accent); font-size: 20px;
+    padding: 6px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+    background: var(--paper-2);
+  }
+
+  /* Tables */
+  .data-table { width: 100%; border-collapse: collapse; margin: 30px 0; font-size: 14.5px; background: var(--card); }
+  .data-table caption {
+    text-align: left; font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--accent-ink); padding-bottom: 10px;
+  }
+  .data-table th, .data-table td {
+    text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top;
+  }
+  .data-table thead th {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--ink); background: rgba(20,33,61,0.045); border-bottom: 2px solid var(--line-strong);
+  }
+  .data-table tbody tr:hover { background: rgba(232,89,12,0.04); }
+  .data-table td.mono { font-family: var(--mono); font-size: 12.5px; color: var(--teal-ink); white-space: nowrap; }
+
+  /* Sources */
+  .sources-list { list-style: none; margin: 0; padding: 0; }
+  .sources-list li { margin-bottom: 13px; padding-left: 30px; position: relative; font-size: 14.5px; color: var(--ink-soft); }
+  .sources-list li::before {
+    content: attr(data-n); position: absolute; left: 0; top: 2px;
+    font-family: var(--mono); font-size: 11px; color: var(--accent); letter-spacing: 0.05em;
+  }
+
+  .binding {
+    background: var(--ink); color: var(--paper-2); padding: 28px 30px; margin: 34px 0 8px;
+    border-left: 5px solid var(--gold); border-radius: 0 4px 4px 0;
+  }
+  .binding .tag {
+    font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase;
+    color: #eccb8a; display: block; margin-bottom: 10px;
+  }
+  .binding p { font-family: var(--serif); font-size: 20px; line-height: 1.5; margin: 0; max-width: 64ch; }
+
+  /* Footer */
+  footer {
+    border-top: 2px solid var(--ink); margin-top: 40px;
+    background: var(--ink); color: #cdd6e4;
+  }
+  .footer-inner {
+    max-width: 1240px; margin: 0 auto; padding: 44px 24px 48px;
+    display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 40px;
+  }
+  footer h3 { color: #fff; font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; margin: 0 0 14px; }
+  footer p { font-size: 13.5px; line-height: 1.6; margin: 0 0 10px; }
+  footer a { color: #f0a97f; }
+  .footer-brand { font-family: var(--serif); font-size: 22px; color: #fff; margin-bottom: 12px; }
+  .footer-meta { font-family: var(--mono); font-size: 11px; color: #8d9bb0; letter-spacing: 0.06em; }
+
+  /* Responsive */
+  @media (max-width: 980px) {
+    .layout { grid-template-columns: 1fr; gap: 0; }
+    .toc { display: none; }
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    .loop-grid { grid-template-columns: 1fr 1fr; }
+    .loop-node + .loop-node { border-left: 1px solid var(--line); }
+    .loop-node:nth-child(2n+1) { border-left: 0; }
+    .footer-inner { grid-template-columns: 1fr; gap: 28px; }
+  }
+  @media (max-width: 620px) {
+    .masthead-inner { flex-direction: column; align-items: flex-start; gap: 8px; padding: 12px 16px; }
+    .topnav { width: 100%; }
+    .hero { padding: 56px 18px 48px; }
+    h1 { font-size: 40px; }
+    .stats { grid-template-columns: 1fr; transform: translateY(-22px); }
+    .loop-grid { grid-template-columns: 1fr; }
+    .loop-node + .loop-node { border-left: 0; border-top: 1px dashed var(--line-strong); }
+    .layout { padding: 0 18px; }
+    section.report-section { padding: 34px 0 42px; }
+    .chart-wrap { height: 280px; }
+    .chart-wrap.tall { height: 320px; }
+    .data-table { display: block; overflow-x: auto; }
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="progress" id="progressBar" aria-hidden="true"></div>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <a class="brand" href="#top" aria-label="H Heuristics research dossier, back to top">
+      <strong>H HEURISTICS</strong>
+      <span>Research Dossier · DR-D-C-T</span>
+    </a>
+    <nav class="topnav" aria-label="Report sections">
+      <a href="#summary">Overview</a>
+      <a href="#system">The System</a>
+      <a href="#diffusion">Diffusion</a>
+      <a href="#convergence">Convergence</a>
+      <a href="#transition">Transition</a>
+      <a href="#loop">The Loop</a>
+      <a href="#implications">Implications</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <p class="kicker"><span class="rule"></span>H Heuristics · Digital Report · August 2026 · Diffusion → Convergence → Clean Transition</p>
+      <h1>The Polycrisis Is a Diffusion Problem</h1>
+      <p class="dek">Pollution, warming, and poverty are usually filed under different ministries. They are one coupled system. Diffusion of innovations, economic convergence, and the clean transition are the same system seen from the solution side — and they are fast enough to outrun the crisis.</p>
+      <div class="byline">
+        <span><b>Hunter Hughes</b></span>
+        <span>Founder &amp; Principal Analyst</span>
+        <span class="dot">●</span>
+        <span>H Heuristics — Research &amp; Advisory</span>
+        <span class="dot">●</span>
+        <span>Published <time datetime="2026-08-23">23 August 2026</time></span>
+      </div>
+    </div>
+  </section>
+
+  <div class="stats" aria-label="Key indicators">
+    <div class="stat"><span class="n">424 <em>ppm</em></span><span class="l">Atmospheric CO₂ concentration, 2024</span><span class="s">NOAA Mauna Loa</span></div>
+    <div class="stat"><span class="n">+1.3 <em>°C</em></span><span class="l">Long-term warming above preindustrial baseline</span><span class="s">IPCC AR6 / WMO</span></div>
+    <div class="stat"><span class="n">692 <em>M</em></span><span class="l">People below the $2.15/day extreme poverty line</span><span class="s">World Bank 2024</span></div>
+    <div class="stat"><span class="n">685 <em>M</em></span><span class="l">People still living without electricity</span><span class="s">Tracking SDG 7 2024</span></div>
+    <div class="stat"><span class="n">−90 <em>%</em></span><span class="l">Solar PV and battery cost decline since 2010</span><span class="s">IRENA / BloombergNEF</span></div>
+    <div class="stat"><span class="n">$2 <em>T</em></span><span class="l">Global clean energy investment, 2024</span><span class="s">IEA World Energy Investment</span></div>
+  </div>
+
+  <div class="layout">
+    <aside class="toc" aria-label="Table of contents">
+      <h2>Contents</h2>
+      <ol>
+        <li><a href="#summary">01 · Executive summary</a></li>
+        <li><a href="#system">02 · One system, not a portfolio</a></li>
+        <li><a href="#diffusion">03 · Diffusion does the heavy lifting</a></li>
+        <li><a href="#convergence">04 · Convergence is the poverty exit ramp</a></li>
+        <li><a href="#transition">05 · The clean transition is the coupling mechanism</a></li>
+        <li><a href="#loop">06 · The DR-D-C-T loop compounds</a></li>
+        <li><a href="#counter-case">07 · The honest counter-case</a></li>
+        <li><a href="#implications">08 · Implications</a></li>
+        <li><a href="#sources">09 · Sources &amp; notes</a></li>
+      </ol>
+    </aside>
+
+    <article>
+      <!-- Executive summary -->
+      <section class="report-section" id="summary">
+        <p class="sec-kicker">Executive summary</p>
+        <h2 class="sec-title">One crisis, one engine, three levers</h2>
+        <p class="lead">The global polycrisis looks like a stack of separate emergencies: pollution, warming, poverty, water stress, fragile supply chains. It is not. It is one coupled system, and the escape route runs through a single engine. The same diffusion forces that spread clean technologies and close income gaps also break the feedback loops that keep the crises locked together.</p>
+        <p>Every intervention that accelerates an S-curve, a catch-up path, or a decarbonization loop attacks all three crises at once. The report builds that argument in four moves. First, it shows the polycrisis is a causal loop, not a list. Second, it shows clean technology has compressed the slow half of its adoption curve into a decade. Third, it shows convergence has delivered the largest poverty reduction in recorded history, and cheap clean energy now makes the next round of catch-up cleaner than the last. Fourth, it shows the three forces compound into a single loop whose only binding constraint is time.</p>
+        <div class="claim-box">
+          <span class="tag">The claim</span>
+          <p>Treat the polycrisis as a coupled diffusion problem. Weight every intervention by whether it accelerates an S-curve, a catch-up path, or a decarbonization loop — those are the same intervention seen from three angles.</p>
+        </div>
+        <div class="takeaway">
+          <span class="tag">Three takeaways</span>
+          <ul>
+            <li>Single-issue interventions stall because the polycrisis loop reimports the problem they just solved. Only loop-level interventions compound.</li>
+            <li>Clean technology now outcompetes fossil alternatives on cost in most markets. Delay no longer buys a cheaper transition; it buys a larger pollution integral.</li>
+            <li>Energy access is development policy and climate policy delivered together. Funding the middle of the S-curve in emerging markets is the highest-leverage capital allocation available.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Section 2 -->
+      <section class="report-section" id="system">
+        <p class="sec-kicker"><span class="no">02</span> · The polycrisis</p>
+        <h2 class="sec-title">The polycrisis is one system, not a portfolio of crises</h2>
+        <p class="lead">The default framing treats pollution, warming, and poverty as separate problems with separate ministries and separate scorecards. The evidence rejects that framing.</p>
+        <p>Warming cuts crop yields and outdoor labor productivity, which deepens poverty. Poverty pushes households toward biomass and coal, which worsens pollution. Pollution damages health and reduces earnings, which deepens poverty again. Each crisis is an input to the others. This is a polycrisis cascade: multiple compounding crises where failure in one domain accelerates failure in another.</p>
+        <p>The scale of the coupling is measurable. Atmospheric carbon dioxide sits near 424 parts per million, against roughly 280 before industrialization. Long-term global mean temperature stands about 1.3 degrees Celsius above the preindustrial baseline, and 2024 became the first calendar year to cross 1.5 degrees, per the World Meteorological Organization. Roughly 7 million people die prematurely each year from air pollution, according to the World Health Organization. About 692 million people still live below the World Bank's extreme poverty line of $2.15 a day. These are not four statistics. They are four positions on the same causal loop.</p>
+        <p>The implication follows directly. A pollution crackdown that raises energy prices can push households back to cheap solid fuels. A poverty program built on coal-fired growth buys income now and buys warming later. Only interventions that work on the loop itself, rather than on one node of it, compound.</p>
+
+        <figure class="chart-card">
+          <figcaption>Figure 1 · The coupled dashboard</figcaption>
+          <p class="chart-title">Four positions on the same loop, 1990–2024</p>
+          <p class="chart-note">Indexed to 1990 = 100. CO₂ and temperature rise together; extreme poverty falls as catch-up growth accelerates. The poverty line is the one curve the world wants moving down. Sources: NOAA, WMO, World Bank, WHO (approximate series).</p>
+          <div class="chart-wrap">
+            <canvas id="chartPolycrisis" role="img" aria-label="Line chart showing CO2 concentration and temperature anomaly rising since 1990 while extreme poverty share falls"></canvas>
+            <p class="chart-fallback">Chart requires JavaScript and the Chart.js CDN.</p>
+          </div>
+        </figure>
+      </section>
+
+      <!-- Section 3 -->
+      <section class="report-section" id="diffusion">
+        <p class="sec-kicker"><span class="no">03</span> · Diffusion of innovations</p>
+        <h2 class="sec-title">Diffusion does the heavy lifting</h2>
+        <p class="lead">Diffusion of innovations moves in S-curves. Adoption starts slow while costs fall and trust builds, then bends sharply upward as the technology crosses a threshold, then flattens as the market saturates.</p>
+        <p>Rogers documented the pattern in 1962. It still governs every technology that matters here. Clean technology has compressed the front half of the curve into a decade. Solar photovoltaic costs have fallen roughly 90 percent since 2010, onshore wind levelized costs about 70 percent, and lithium-ion battery pack prices about 90 percent, per IRENA and BloombergNEF. The adoption data follow the cost data. Wind and solar supplied under 2 percent of global electricity in 2010 and roughly 15 percent in 2024, per Ember. Electric vehicles moved from well under 1 percent of new car sales in 2010 to about 20 percent in 2024, per the International Energy Agency. These are textbook S-curves caught mid-bend.</p>
+        <p>The mechanism is learning-by-doing. Every doubling of cumulative solar deployment cuts unit costs by roughly 20 percent; batteries track a similar learning rate. Diffusion therefore does two jobs at once. It spreads a cleaner technology, and it makes that technology cheaper for every adopter who comes later. That second job is the one that changes the arithmetic of the polycrisis.</p>
+
+        <figure class="chart-card">
+          <figcaption>Figure 2 · Cost deflation</figcaption>
+          <p class="chart-title">The clean technology cost curve, 2010 = 100</p>
+          <p class="chart-note">Solar modules, wind, and batteries all fell by 60–93 percent in fourteen years. Sources: IRENA Renewable Power Generation Costs, BloombergNEF battery price survey (indicative series).</p>
+          <div class="chart-wrap">
+            <canvas id="chartCost" role="img" aria-label="Line chart showing solar module, onshore wind, offshore wind, and lithium-ion battery costs falling 60 to 93 percent since 2010"></canvas>
+            <p class="chart-fallback">Chart requires JavaScript and the Chart.js CDN.</p>
+          </div>
+        </figure>
+
+        <figure class="chart-card">
+          <figcaption>Figure 3 · S-curves in motion</figcaption>
+          <p class="chart-title">Two adoption curves caught mid-bend, 2010–2024</p>
+          <p class="chart-note">Wind and solar share of global electricity and electric vehicle share of new car sales. Sources: Ember Global Electricity Review, IEA Global EV Outlook (approximate series).</p>
+          <div class="chart-wrap">
+            <canvas id="chartScurve" role="img" aria-label="Line chart showing wind and solar electricity share rising to about 15 percent and electric vehicle sales share rising to about 20 percent by 2024"></canvas>
+            <p class="chart-fallback">Chart requires JavaScript and the Chart.js CDN.</p>
+          </div>
+        </figure>
+      </section>
+
+      <!-- Section 4 -->
+      <section class="report-section" id="convergence">
+        <p class="sec-kicker"><span class="no">04</span> · Economic convergence</p>
+        <h2 class="sec-title">Convergence is the poverty exit ramp</h2>
+        <p class="lead">Economic convergence is the empirical regularity that poorer economies grow faster than rich ones once they have the institutions, capital, and technology to absorb. Barro and Sala-i-Martin measured conditional convergence at roughly 2 percent a year.</p>
+        <p>The growth records since 2000 show the mechanism working at scale. China's income per person multiplied about 13 times from 2000 to 2023; Vietnam's about 11 times; India's more than 5 times; Bangladesh's about 6 times. Extreme poverty fell from about 38 percent of humanity in 1990 to about 8.5 percent in 2024. That is the largest poverty reduction in recorded history. Catch-up growth powered it: adopting proven technologies, plugging into trade, and building the infrastructure to do both.</p>
+        <p>Energy access sits inside this mechanism. About 685 million people still lack electricity, and 2.1 billion lack clean cooking, per the 2024 SDG 7 tracking report. Every one of those gaps is a convergence gap. Households without electricity cannot mechanize, refrigerate, or study at night; firms cannot run reliable equipment. Closing the gap was once expensive because it meant extending coal grids. Cheap solar, batteries, and mini-grids change that trade-off. Late developers can now leapfrog directly to distributed clean power instead of rebuilding the fossil pathway. Diffusion makes convergence cheaper, and convergence creates the demand base that pulls the next wave of clean technology forward.</p>
+
+        <figure class="chart-card">
+          <figcaption>Figure 4 · Convergence at work</figcaption>
+          <p class="chart-title">Poorer starting points produced faster income growth, 2000–2023</p>
+          <p class="chart-note">Income multiple (2000 = 1) plotted against GDP per capita in 2000. The downward slope is convergence: the further left a country starts, the higher it climbs. Source: World Bank World Development Indicators.</p>
+          <div class="chart-wrap tall">
+            <canvas id="chartConvergence" role="img" aria-label="Scatter plot showing countries with lower 2000 income levels grew to higher multiples of income by 2023"></canvas>
+            <p class="chart-fallback">Chart requires JavaScript and the Chart.js CDN.</p>
+          </div>
+        </figure>
+
+        <div class="takeaway">
+          <span class="tag">The takeaway</span>
+          <p>Convergence is not a rival of the clean transition. It is the demand side of it. Every economy that catches up on distributed clean power is a new market, a new supply-chain node, and one less future emitter locked into the fossil pathway.</p>
+        </div>
+      </section>
+
+      <!-- Section 5 -->
+      <section class="report-section" id="transition">
+        <p class="sec-kicker"><span class="no">05</span> · The clean transition</p>
+        <h2 class="sec-title">The clean transition is the coupling mechanism</h2>
+        <p class="lead">The clean transition is the point where diffusion and convergence meet the polycrisis. It decarbonizes energy, which attacks warming. It displaces combustion, which attacks pollution. It extends energy access, which attacks poverty. One transition, three crisis levers.</p>
+        <p>Capital has begun to follow the mechanism. Global clean energy investment reached roughly 2 trillion dollars in 2024, against about 1.1 trillion for fossil fuels, per the International Energy Agency. Renewable energy employment reached 16.2 million in 2023, per IRENA. Where the transition has run longest, the health dividend shows up in the air quality data: urban fine-particle pollution in China fell roughly 40 percent between 2013 and 2020 as coal growth stalled and clean power scaled. The same pattern is now visible in early form across India, Southeast Asia, and parts of Africa.</p>
+        <p>The policy conclusion is uncomfortable for ministries that still file clean energy under environment. The transition is a development strategy. It is the fastest available route to universal energy access, the cheapest new power in most markets, and the only growth model that does not reimport pollution into the lungs of the people it lifts out of poverty.</p>
+
+        <figure class="chart-card">
+          <figcaption>Figure 5 · Capital is following</figcaption>
+          <p class="chart-title">Clean energy investment overtook fossil fuels, 2015–2024</p>
+          <p class="chart-note">Billion US dollars, nominal. The crossover arrived around 2021 and the gap has widened every year since. Source: IEA World Energy Investment 2024 (approximate series).</p>
+          <div class="chart-wrap">
+            <canvas id="chartInvestment" role="img" aria-label="Line chart showing clean energy investment overtaking fossil fuel investment after 2021"></canvas>
+            <p class="chart-fallback">Chart requires JavaScript and the Chart.js CDN.</p>
+          </div>
+        </figure>
+      </section>
+
+      <!-- Section 6 -->
+      <section class="report-section" id="loop">
+        <p class="sec-kicker"><span class="no">06</span> · The compound loop</p>
+        <h2 class="sec-title">The DR-D-C-T loop compounds</h2>
+        <p class="lead">Diffusion, convergence, and the clean transition are usually analyzed as three separate literatures. They are three positions on one loop.</p>
+        <p>Clean technology diffuses down its cost curve. Cheap clean technology lets poorer economies converge without the pollution bill of the old pathway. Convergence expands the markets and supply chains that make clean technology cheaper still. The resulting transition de-escalates all three polycrisis nodes. Each turn of the loop lowers the cost of the next turn.</p>
+        <p>The loop also raises what this analysis calls the D-coefficient: an economy's absorptive capacity for change. Grids, workforces, and institutions that absorbed the last wave of clean deployment can absorb the next one faster. Capacity compounds the same way costs do. The binding constraint is time. Every year the loop runs slower than it could, the world adds to what this analysis calls the P-integral: cumulative pollution exposure integrated over time. Emissions this year do not vanish next year; they accumulate in the atmosphere and in lungs. The P-integral is the one cost in this system that never discounts.</p>
+
+        <div class="loop-grid" role="list" aria-label="The DR-D-C-T loop: four compounding stages">
+          <div class="loop-node" role="listitem">
+            <span class="no">01 · DIFFUSION</span>
+            <h3>Clean tech scales</h3>
+            <p>Solar, batteries, and EVs move down their learning curves. Every doubling of deployment cuts costs and opens the next market.</p>
+          </div>
+          <div class="loop-node" role="listitem">
+            <span class="no">02 · CONVERGENCE</span>
+            <h3>Poor economies catch up</h3>
+            <p>Cheap clean power lets late developers industrialize and extend energy access without the pollution bill of the old pathway.</p>
+          </div>
+          <div class="loop-node" role="listitem">
+            <span class="no">03 · TRANSITION</span>
+            <h3>Three levers fire at once</h3>
+            <p>Decarbonization attacks warming, displacement of combustion attacks pollution, energy access attacks poverty.</p>
+          </div>
+          <div class="loop-node" role="listitem">
+            <span class="no">04 · DE-ESCALATION</span>
+            <h3>The polycrisis unwinds</h3>
+            <p>Lower emissions, cleaner air, and higher incomes feed back into cheaper capital and larger markets for the next turn.</p>
+          </div>
+        </div>
+        <p class="loop-arrow" aria-hidden="true">↻ each turn lowers the cost of the next turn</p>
+
+        <table class="data-table">
+          <caption>The three levers and the polycrisis nodes they strike</caption>
+          <thead>
+            <tr><th scope="col">Lever</th><th scope="col">Primary node</th><th scope="col">Secondary nodes</th><th scope="col">Signal to watch</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Diffusion of clean innovations</td><td>Global warming</td><td>Pollution, poverty</td><td class="mono">LCOE / learning rate</td></tr>
+            <tr><td>Economic convergence</td><td>Poverty</td><td>Pollution, warming</td><td class="mono">β-convergence rate</td></tr>
+            <tr><td>Clean transition</td><td>Pollution</td><td>Warming, poverty</td><td class="mono">Clean share of energy</td></tr>
+            <tr><td>Loop speed (D-coefficient)</td><td>All three</td><td>—</td><td class="mono">Years per S-curve bend</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Section 7 -->
+      <section class="report-section" id="counter-case">
+        <p class="sec-kicker"><span class="no">07</span> · The counter-case</p>
+        <h2 class="sec-title">The honest counter-case</h2>
+        <p class="lead">The counter-case does not dispute the mechanism. It disputes the speed. Policies currently on the books point toward warming near 3 degrees Celsius by 2100, per the UNEP Emissions Gap Report 2024. The loop is running, and it is still running too slowly.</p>
+        <p>The obstacles are real. Clean capital concentrates in rich countries and China, while emerging markets pay the highest financing costs precisely where new demand is largest. Grids and permitting move at bureaucratic speed while solar factories move at manufacturing speed. Critical minerals for batteries and grids are geographically concentrated, and their processing is more concentrated still. Rebound effects can eat part of the efficiency dividend as energy gets cheaper. And convergence reduces poverty on average while inequality within countries can still widen.</p>
+        <p>None of these obstacles refutes the loop. Each one is itself a diffusion problem. Capital must diffuse into emerging markets. Grid capacity must diffuse into lagging regions. Mineral supply must diffuse out of chokepoints through substitution and recycling. The counter-case argues for accelerating the same three forces, with more finance and harder industrial policy, not for a different theory of change.</p>
+      </section>
+
+      <!-- Section 8 -->
+      <section class="report-section" id="implications">
+        <p class="sec-kicker"><span class="no">08</span> · Implications</p>
+        <h2 class="sec-title">Measure curves, fund the bend, build capacity</h2>
+        <p class="lead">The loop reframes what to build, measure, and fund.</p>
+        <p>Measure adoption curves, not pledges. A country's announced targets matter less than whether its solar, storage, and EV S-curves are bending on schedule. Fund the middle of the S-curve in emerging markets, where a dollar buys more adoption and more convergence than anywhere else. Treat energy access as a convergence instrument, not a charity line item; every gigawatt of distributed clean power is development policy and climate policy delivered together. Build absorptive capacity before the wave hits: grid codes, workforce training, procurement standards, and the institutions that let the D-coefficient compound.</p>
+        <p>The cheap path is the fast path. Clean technology is now the low-cost option in most markets, and delay no longer buys a cheaper transition; it buys a larger P-integral, more locked-in warming, and more avoidable deaths. Treating its symptoms one at a time will not solve the polycrisis. Diffusion, convergence, and the clean transition running as one system will outrun it.</p>
+
+        <table class="data-table">
+          <caption>What the loop changes in practice</caption>
+          <thead>
+            <tr><th scope="col">Old default</th><th scope="col">Loop reframe</th><th scope="col">Primary metric</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Climate policy measured in pledges</td><td>Climate policy measured in adoption curves</td><td class="mono">S-curve bend year</td></tr>
+            <tr><td>Energy access filed under aid</td><td>Energy access filed under convergence</td><td class="mono">GW per 100k people</td></tr>
+            <tr><td>Clean capital parked in rich markets</td><td>Clean capital pushed to the steepest S-curves</td><td class="mono">$/tCO₂ avoided, EMDEs</td></tr>
+            <tr><td>Grids planned after generation</td><td>Grids and absorptive capacity built ahead of the wave</td><td class="mono">D-coefficient growth</td></tr>
+          </tbody>
+        </table>
+
+        <div class="binding">
+          <span class="tag">Binding term</span>
+          <p>Treat the polycrisis as a coupled diffusion problem, not a portfolio of independent crises. Weight every intervention by whether it accelerates an S-curve, a catch-up path, or a decarbonization loop; those are the same intervention seen from three angles, and the P-integral of delayed action is the only cost that never discounts.</p>
+        </div>
+      </section>
+
+      <!-- Sources -->
+      <section class="report-section" id="sources">
+        <p class="sec-kicker"><span class="no">09</span> · Sources &amp; notes</p>
+        <h2 class="sec-title">Sources and notes</h2>
+        <p class="lead">Figures are rounded to the precision the underlying sources support. Chart series marked "approximate" interpolate between published data points for readability; the direction and order of magnitude are the claim, not the decimal.</p>
+        <ol class="sources-list">
+          <li data-n="01">IPCC, <a href="https://www.ipcc.ch/report/ar6/syr/">AR6 Synthesis Report</a> (2023) — climate system state and warming attribution.</li>
+          <li data-n="02">World Meteorological Organization, <a href="https://wmo.int/publication-series/state-of-global-climate-2024">State of the Global Climate 2024</a> — 2024 as the first calendar year above 1.5°C.</li>
+          <li data-n="03">NOAA Global Monitoring Laboratory, <a href="https://gml.noaa.gov/ccgg/trends/">Mauna Loa CO₂ trends</a> — atmospheric CO₂ concentration.</li>
+          <li data-n="04">World Health Organization, <a href="https://www.who.int/health-topics/air-pollution">Air pollution</a> — premature mortality estimates.</li>
+          <li data-n="05">World Bank, <a href="https://www.worldbank.org/en/publication/poverty-prosperity-and-planet">Poverty, Prosperity, and Planet</a> (2024) — extreme poverty counts and shares.</li>
+          <li data-n="06">IRENA, <a href="https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023">Renewable Power Generation Costs in 2023</a> — solar and wind cost declines.</li>
+          <li data-n="07">BloombergNEF, <a href="https://about.bnef.com/blog/lithium-ion-battery-pack-prices-see-largest-drop-since-2017-falling-to-115-per-kilowatt-hour-bloombergnef/">Lithium-ion battery price survey</a> (2024) — battery pack price decline.</li>
+          <li data-n="08">Ember, <a href="https://ember-energy.org/latest-insights/global-electricity-review-2025/">Global Electricity Review 2025</a> — wind and solar share of global electricity.</li>
+          <li data-n="09">International Energy Agency, <a href="https://www.iea.org/reports/global-ev-outlook-2024">Global EV Outlook 2024</a> — electric vehicle sales shares.</li>
+          <li data-n="10">International Energy Agency, <a href="https://www.iea.org/reports/world-energy-investment-2024">World Energy Investment 2024</a> — clean versus fossil investment.</li>
+          <li data-n="11">IRENA and ILO, <a href="https://www.irena.org/Publications/2024/Oct/Renewable-energy-and-jobs-Annual-review-2024">Renewable Energy and Jobs</a> (2024) — renewable energy employment.</li>
+          <li data-n="12">IEA, IRENA, UNSD, World Bank, WHO, <a href="https://www.iea.org/reports/tracking-sdg7-the-energy-progress-report-2024">Tracking SDG 7: The Energy Progress Report 2024</a> — electricity access and clean cooking gaps.</li>
+          <li data-n="13">UNEP, <a href="https://www.unep.org/resources/emissions-gap-report-2024">Emissions Gap Report 2024</a> — policy-implied warming trajectory.</li>
+          <li data-n="14">Barro, R. and Sala-i-Martin, X., "Convergence," <em>Journal of Political Economy</em> 100(2), 1992 — conditional convergence estimates.</li>
+          <li data-n="15">Rogers, E., <em>Diffusion of Innovations</em>, Free Press (1962; 5th ed. 2003) — the S-curve framework.</li>
+          <li data-n="16">Ministry of Ecology and Environment of China, <a href="https://english.mee.gov.cn/">Air quality reports</a> — urban PM2.5 trends, 2013–2020.</li>
+        </ol>
+      </section>
+    </article>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <p class="footer-brand">H Heuristics</p>
+      <p>A research and advisory company built around structured learning, data-driven analysis, and how the world works. We turn complex systems into clear, useful insights.</p>
+      <p class="footer-meta">Digital Report · DR-D-C-T · © 2026 Hunter Hughes / H Heuristics. All rights reserved.</p>
+    </div>
+    <div>
+      <h3>Report</h3>
+      <p><a href="https://hheuristics.com/">hheuristics.com</a></p>
+      <p><a href="https://github.com/Hunterhghs/DR-D-C-T-address-polycrisis">Repository</a></p>
+      <p><a href="https://hunterhghs.github.io/DR-D-C-T-address-polycrisis/">Live on GitHub Pages</a></p>
+    </div>
+    <div>
+      <h3>Method</h3>
+      <p>Built with the Veles pipeline — Fable-5 × DeepSeek hybrid: research synthesis, english-report-writing prose discipline, and a pre-ship verification gate.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  /* ---------- Shared chart defaults ---------- */
+  var fontSans = "ui-sans-serif, -apple-system, 'Segoe UI', Roboto, sans-serif";
+  var fontMono = "ui-monospace, 'SF Mono', Menlo, Consolas, monospace";
+  var ink = "#14213d";
+  var muted = "#5c6b7a";
+  var line = "#e5dfd2";
+  var accent = "#e8590c";
+  var teal = "#0e7c7b";
+  var gold = "#b8860b";
+
+  var gridColor = { color: line };
+  var noGrid = { display: false };
+
+  function makeBase() {
+    return {
+      responsive: true,
+      maintainAspectRatio: false,
+      animation: { duration: 700 },
+      interaction: { mode: "nearest", intersect: false },
+      plugins: {
+        legend: {
+          position: "top",
+          labels: { boxWidth: 12, boxHeight: 12, padding: 18, usePointStyle: true, font: { family: fontSans, size: 12 }, color: ink }
+        },
+        tooltip: {
+          backgroundColor: ink,
+          titleFont: { family: fontSans, size: 12 },
+          bodyFont: { family: fontSans, size: 12 },
+          padding: 12,
+          cornerRadius: 4,
+          displayColors: true
+        }
+      },
+      scales: {
+        x: { grid: noGrid, ticks: { font: { family: fontMono, size: 11 }, color: muted } },
+        y: { grid: gridColor, border: { display: false }, ticks: { font: { family: fontMono, size: 11 }, color: muted } }
+      }
+    };
+  }
+
+  function mount(id, build) {
+    var canvas = document.getElementById(id);
+    if (!canvas) { return; }
+    if (typeof Chart === "undefined") {
+      canvas.style.display = "none";
+      var fallback = canvas.parentElement.querySelector(".chart-fallback");
+      if (fallback) { fallback.style.display = "block"; }
+      return;
+    }
+    try { new Chart(canvas, build()); } catch (e) {
+      canvas.style.display = "none";
+      var fb = canvas.parentElement.querySelector(".chart-fallback");
+      if (fb) { fb.style.display = "block"; }
+      if (window.console) { console.error("Chart build failed: " + id, e); }
+    }
+  }
+
+  /* ---------- Figure 1: coupled dashboard ---------- */
+  mount("chartPolycrisis", function () {
+    var cfg = makeBase();
+    return {
+      type: "line",
+      data: {
+        labels: ["1990", "1995", "2000", "2005", "2010", "2015", "2020", "2024"],
+        datasets: [
+          {
+            label: "CO₂ concentration (1990 = 100)",
+            data: [100, 102, 104, 108, 110, 113, 115, 120],
+            borderColor: ink, backgroundColor: "rgba(20,33,61,0.08)",
+            borderWidth: 2.5, pointRadius: 2, pointBackgroundColor: ink, tension: 0.25, fill: true
+          },
+          {
+            label: "Temperature anomaly (1990 = 100)",
+            data: [100, 111, 140, 160, 178, 222, 242, 289],
+            borderColor: accent, backgroundColor: "rgba(232,89,12,0.07)",
+            borderWidth: 2.5, pointRadius: 2, pointBackgroundColor: accent, tension: 0.25, fill: true
+          },
+          {
+            label: "Extreme poverty share (1990 = 100, lower is better)",
+            data: [100, 82, 76, 55, 42, 26, 24, 22],
+            borderColor: teal, backgroundColor: "rgba(14,124,123,0.07)",
+            borderWidth: 2.5, borderDash: [6, 4], pointRadius: 2, pointBackgroundColor: teal, tension: 0.25, fill: true
+          }
+        ]
+      },
+      options: cfg
+    };
+  });
+
+  /* ---------- Figure 2: cost deflation ---------- */
+  mount("chartCost", function () {
+    var cfg = makeBase();
+    cfg.scales.y.min = 0; cfg.scales.y.max = 100;
+    cfg.scales.y.ticks.callback = function (v) { return v + "%"; };
+    return {
+      type: "line",
+      data: {
+        labels: ["2010", "2012", "2014", "2016", "2018", "2020", "2022", "2024"],
+        datasets: [
+          { label: "Solar PV module", data: [100, 72, 46, 32, 20, 14, 11, 7], borderColor: accent, backgroundColor: "rgba(232,89,12,0.06)", borderWidth: 2.5, pointRadius: 2, pointBackgroundColor: accent, tension: 0.3, fill: true },
+          { label: "Lithium-ion battery pack", data: [100, 72, 46, 30, 18, 14, 12, 10], borderColor: ink, backgroundColor: "rgba(20,33,61,0.05)", borderWidth: 2.5, pointRadius: 2, pointBackgroundColor: ink, tension: 0.3, fill: true },
+          { label: "Onshore wind LCOE", data: [100, 88, 76, 67, 52, 42, 34, 30], borderColor: teal, backgroundColor: "rgba(14,124,123,0.05)", borderWidth: 2.5, pointRadius: 2, pointBackgroundColor: teal, tension: 0.3, fill: true },
+          { label: "Offshore wind LCOE", data: [100, 94, 88, 75, 64, 52, 45, 40], borderColor: gold, backgroundColor: "rgba(184,134,11,0.05)", borderWidth: 2.5, pointRadius: 2, pointBackgroundColor: gold, tension: 0.3, fill: true }
+        ]
+      },
+      options: cfg
+    };
+  });
+
+  /* ---------- Figure 3: S-curves ---------- */
+  mount("chartScurve", function () {
+    var cfg = makeBase();
+    cfg.scales.y.ticks.callback = function (v) { return v + "%"; };
+    return {
+      type: "line",
+      data: {
+        labels: ["2010", "2012", "2014", "2016", "2018", "2020", "2022", "2024"],
+        datasets: [
+          { label: "Wind + solar share of global electricity", data: [1.7, 2.4, 3.5, 5.1, 7.3, 9.3, 12.0, 15.0], borderColor: teal, backgroundColor: "rgba(14,124,123,0.07)", borderWidth: 2.5, pointRadius: 3, pointBackgroundColor: teal, tension: 0.35, fill: true },
+          { label: "Electric vehicles share of new car sales", data: [0.1, 0.2, 0.4, 0.9, 2.2, 4.1, 14.0, 20.0], borderColor: accent, backgroundColor: "rgba(232,89,12,0.07)", borderWidth: 2.5, pointRadius: 3, pointBackgroundColor: accent, tension: 0.35, fill: true }
+        ]
+      },
+      options: cfg
+    };
+  });
+
+  /* ---------- Figure 4: convergence scatter ---------- */
+  mount("chartConvergence", function () {
+    var cfg = makeBase();
+    cfg.scales.x.title = { display: true, text: "GDP per capita in 2000 (current US$)", font: { family: fontSans, size: 11.5 }, color: muted };
+    cfg.scales.y.title = { display: true, text: "Income multiple, 2000 → 2023", font: { family: fontSans, size: 11.5 }, color: muted };
+    cfg.plugins.legend.display = false;
+    return {
+      type: "scatter",
+      data: {
+        datasets: [
+          {
+            label: "Countries",
+            data: [
+              { x: 959, y: 13.2, c: "China" },
+              { x: 390, y: 11.1, c: "Vietnam" },
+              { x: 124, y: 10.4, c: "Ethiopia" },
+              { x: 780, y: 6.3, c: "Indonesia" },
+              { x: 418, y: 6.0, c: "Bangladesh" },
+              { x: 443, y: 5.6, c: "India" },
+              { x: 390, y: 4.2, c: "Nigeria" },
+              { x: 3749, y: 2.7, c: "Brazil" },
+              { x: 36330, y: 2.2, c: "United States" },
+              { x: 23719, y: 2.2, c: "Germany" }
+            ],
+            pointBackgroundColor: function (ctx) { return ctx.raw.x < 2000 ? teal : (ctx.raw.x < 20000 ? accent : ink); },
+            pointBorderColor: "#fdfbf4",
+            pointBorderWidth: 1.5,
+            pointRadius: function (ctx) { return ctx.raw.x < 2000 ? 7 : 5; },
+            pointHoverRadius: 9
+          }
+        ]
+      },
+      options: cfg,
+      plugins: [{
+        id: "countryLabels",
+        afterDatasetsDraw: function (chart) {
+          var ctx = chart.ctx;
+          chart.data.datasets[0].data.forEach(function (pt) {
+            var meta = chart.getDatasetMeta(0);
+            var el = meta.data[chart.data.datasets[0].data.indexOf(pt)];
+            if (!el) { return; }
+            ctx.save();
+            ctx.font = "600 11px " + fontSans;
+            ctx.fillStyle = ink;
+            ctx.textAlign = pt.x < 5000 ? "left" : "left";
+            ctx.fillText(pt.c, el.x + 10, el.y - 4);
+            ctx.restore();
+          });
+        }
+      }]
+    };
+  });
+
+  /* ---------- Figure 5: investment ---------- */
+  mount("chartInvestment", function () {
+    var cfg = makeBase();
+    cfg.scales.y.ticks.callback = function (v) { return "$" + (v / 1000).toFixed(1) + "T"; };
+    return {
+      type: "line",
+      data: {
+        labels: ["2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+        datasets: [
+          { label: "Clean energy investment", data: [1050, 1100, 1150, 1200, 1250, 1250, 1400, 1600, 1800, 2000], borderColor: teal, backgroundColor: "rgba(14,124,123,0.08)", borderWidth: 2.5, pointRadius: 2, pointBackgroundColor: teal, tension: 0.3, fill: true },
+          { label: "Fossil fuel investment", data: [1300, 1300, 1280, 1300, 1300, 1250, 1200, 1150, 1100, 1100], borderColor: accent, backgroundColor: "rgba(232,89,12,0.05)", borderWidth: 2.5, pointRadius: 2, pointBackgroundColor: accent, tension: 0.3, fill: true }
+        ]
+      },
+      options: cfg
+    };
+  });
+
+  /* ---------- Progress bar ---------- */
+  var progressBar = document.getElementById("progressBar");
+  function updateProgress() {
+    if (!progressBar) { return; }
+    var scrollTop = window.scrollY || document.documentElement.scrollTop;
+    var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    var pct = docHeight > 0 ? Math.min(100, (scrollTop / docHeight) * 100) : 0;
+    progressBar.style.width = pct + "%";
+  }
+
+  /* ---------- Scrollspy ---------- */
+  var navLinks = Array.prototype.slice.call(document.querySelectorAll(".topnav a"));
+  var tocLinks = Array.prototype.slice.call(document.querySelectorAll(".toc a"));
+  var sections = navLinks.map(function (a) {
+    return document.querySelector(a.getAttribute("href"));
+  }).filter(Boolean);
+
+  function onScroll() {
+    updateProgress();
+    var pos = (window.scrollY || document.documentElement.scrollTop) + 130;
+    var currentId = null;
+    sections.forEach(function (sec) {
+      if (sec.offsetTop <= pos) { currentId = sec.id; }
+    });
+    navLinks.forEach(function (a) {
+      a.classList.toggle("active", currentId !== null && a.getAttribute("href") === "#" + currentId);
+    });
+    tocLinks.forEach(function (a) {
+      a.classList.toggle("active", currentId !== null && a.getAttribute("href") === "#" + currentId);
+    });
+  }
+
+  var ticking = false;
+  window.addEventListener("scroll", function () {
+    if (!ticking) {
+      window.requestAnimationFrame(function () { onScroll(); ticking = false; });
+      ticking = true;
+    }
+  }, { passive: true });
+  onScroll();
+})();
+</script>
+</body>
+</html>
