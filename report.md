@@ -32,7 +32,7 @@ Capital has begun to follow the mechanism. Global clean energy investment reache
 
 The policy conclusion is uncomfortable for ministries that still file clean energy under environment. The transition is a development strategy. It is the fastest available route to universal energy access, the cheapest new power in most markets, and the only growth model that does not reimport pollution into the lungs of the people it lifts out of poverty.
 
-## The DR-D-C-T loop compounds
+## The loop compounds
 
 Diffusion, convergence, and the clean transition are usually analyzed as three separate literatures. They are three positions on one loop. Clean technology diffuses down its cost curve; cheap clean technology lets poorer economies converge without the pollution bill of the old pathway; convergence expands the markets and supply chains that make clean technology cheaper still; the resulting transition de-escalates all three polycrisis nodes. Each turn of the loop lowers the cost of the next turn.
 

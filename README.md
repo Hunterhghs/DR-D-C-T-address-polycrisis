@@ -15,12 +15,12 @@ A one-page digital report by **Hunter Hughes**, published by **H Heuristics**, o
 3. Diffusion does the heavy lifting
 4. Convergence is the poverty exit ramp
 5. The clean transition is the coupling mechanism
-6. The DR-D-C-T loop compounds
+6. The loop compounds
 7. The honest counter-case
 8. Implications
 9. Sources & notes
 
-The page embeds five Chart.js figures (coupled polycrisis dashboard, clean-tech cost deflation, S-curves in motion, convergence scatter, clean-vs-fossil investment), a four-node DR-D-C-T loop diagram, two data tables, and a binding-term close.
+The page embeds five Chart.js figures (coupled polycrisis dashboard, clean-tech cost deflation, S-curves in motion, convergence scatter, clean-vs-fossil investment), a four-node compounding-loop diagram, two data tables, and a binding-term close.
 
 ## Deploy via GitHub Pages
 
